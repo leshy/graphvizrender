@@ -5,7 +5,7 @@
 node index.js README.md
 ```
 
-![img](test_graph.jpg)
+![img](test_graph.png)
 
 <details><summary>code</summary>
 
