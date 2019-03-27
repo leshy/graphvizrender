@@ -9,7 +9,7 @@ node index.js README.md
 
 <details><summary>code</summary>
 
-```dot test_graph.jpg
+```dot test_graph.png
   digraph {
     rankdir=LR;
     node [fontname=monospace shape=box color=white]
