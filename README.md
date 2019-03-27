@@ -5,14 +5,14 @@
 node index.js README.md
 ```
 
-![img](test_graph.png)
+![img](test_graph.svg)
 
 <details><summary>code</summary>
 
-```dot test_graph.png
+```dot test_graph.svg
   digraph {
     rankdir=LR;
-    node [fontname=monospace shape=box color=white]
+    node [fontname=monospace shape=box]
     nodesep=0.3;
     subgraph {
       node [shape=box style="filled" fillcolor="#00ff0025" ]

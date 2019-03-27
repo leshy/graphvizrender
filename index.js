@@ -21,7 +21,7 @@ const load = (fileName) =>
    exists(fileName).then(readFile).then((buffer) => buffer.toString('utf8'))
 
 const callDot = (dir) => ({fileName, code}) => new p((resolve, reject) => {
-  const child = spawn('/usr/bin/dot', ['-Tpng'])
+  const child = spawn('/usr/bin/dot', ['-Tsvg'])
   const [ stdin, stdout, stderr ] = child.stdio
   const fileStream = fs.createWriteStream(join(dir, fileName))
   stdout.pipe(fileStream)
